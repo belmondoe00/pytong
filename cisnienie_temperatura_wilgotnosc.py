@@ -6,7 +6,7 @@ from scipy.interpolate import griddata
 
 # Połączenie z bazą danych
 polaczenie = pyodbc.connect("""zakaz""")
-#kaka ww
+
 # Pobieranie danych konturów Polski
 zapytanie_kontury = """
 SELECT [dl], [szer], [nr]
