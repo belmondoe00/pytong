@@ -5,11 +5,7 @@ import pyodbc
 from scipy.interpolate import griddata
 
 # Połączenie z bazą danych
-polaczenie = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};
-Server=analityk.wwsi.edu.pl,50221;
-DATABASE=synop;
-uid=student;
-pwd=ciekawski""")
+polaczenie = pyodbc.connect("""zakaz""")
 
 # Pobieranie danych konturów Polski
 zapytanie_kontury = """
