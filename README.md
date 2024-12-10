@@ -1,2 +1,3 @@
 # pytong
-wizualizacje 
+a mogles z nami z jednej wazy 
+
