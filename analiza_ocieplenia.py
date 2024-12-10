@@ -7,11 +7,7 @@ import numpy as np  # Do obliczenia regresji liniowej
 # Funkcja do pobierania danych z bazy danych
 def pobierz_dane_srednie_temperatury_widzialnosci_i_opadow():
     # Połączenie z bazą danych
-    polaczenie = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};
-    Server=analityk.wwsi.edu.pl,50221;
-    DATABASE=synop;
-    uid=student;
-    pwd=ciekawski""")
+    polaczenie = pyodbc.connect("""zakaz""")
 
     # Zaktualizowane zapytanie SQL
     query = """
