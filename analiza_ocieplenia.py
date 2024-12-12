@@ -12,6 +12,7 @@ def pobierz_dane_srednie_temperatury_widzialnosci_i_opadow():
      DATABASE=synop;
      uid=****;
      pwd=****""")
+
     # Zaktualizowane zapytanie SQL
     query = """
     SELECT 
