@@ -5,7 +5,7 @@ from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar, HoverTo
 from bokeh.plotting import figure
 from bokeh.palettes import Viridis256
 import json
-
+#
 # Połączenie z bazą danych
 def pobierz_dane():
     polaczenie = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};
