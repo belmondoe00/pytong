@@ -11,8 +11,8 @@ def pobierz_dane():
     polaczenie = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};
     Server=analityk.wwsi.edu.pl,50221;
     DATABASE=synop;
-    uid=student;
-    pwd=ciekawski""")
+    uid=****;
+    pwd=****""")
 
     query = """
     SELECT 
